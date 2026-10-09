@@ -2,8 +2,6 @@
 
 Recurrly is a full-stack subscription management application designed to help users monitor and control their recurring expenses in one centralized hub. Built using a modern "Next.js-style" mobile architecture, the app features robust subscription tracking for both active and inactive charges, automated email reminders to ensure users never miss a billing date.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
-
 <a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
@@ -64,66 +62,6 @@ Make sure you have the following installed on your machine:
 git clone https://github.com/adrianhajdin/react-native-recurrly.git
 cd react-native-recurrly
 ```
-
-## Installation
-
- Before you begin developing your app, it's essential to set up Expo and initialize your project.
-  - Start by creating a folder for your application. Then, open your terminal and navigate to that folder. To create an Expo app, you can use:
-
-  ```bash
-  npx create-expo-app@latest
-  ```
-
-  By default, you get a TypeScript Expo app with Expo Router configured.
-
-  If you want a different starter (blank JS, blank TS, tabs, etc.), you can run:
-
-  ```bash
-  npx create-expo-app@latest --template
-  ```
-
-  And pick whichever template fits your workflow.
-
-  Since this repository is already created, install dependencies and start the development server:
-
-  ```bash
-  npm install
-  npx expo start
-  ```
-
-  `npx expo start` means "download (if needed) and execute Expo locally." It starts Metro Bundler, which compiles and serves your React Native code.
-
-  Once it starts, you'll see a QR code and shortcut keys in the terminal. For example:
-  - `a` opens Android
-  - `i` opens iOS Simulator (macOS)
-  - `w` opens web
-  - `r` reloads
-  - `m` opens dev menu in Expo Go / device context
-
-  We don't need to rely on heavy IDE tooling to begin. The easiest flow is using Expo Go on your phone.
-
-  Expo Go is a mobile app that lets you test React Native apps quickly by scanning a QR code. It's fast, beginner-friendly, and supports real-time updates while you code.
-
-  Open Google Play Store or Apple App Store, install **Expo Go**, then come back here and scan the QR code.
-
-  ### iOS VPN Turn OFF, and network permissions…
-
-  Now open Expo Go and scan the QR code from the terminal. The app should compile and launch.
-
-  If all is good, you'll see the starter app with two tabs: Home and Explore.
-
-## Set Up Environment Variables
-
-Create a new file named `.env` in the root of your project and add the following content:
-
-
-```env
-EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=
-POSTHOG_PROJECT_TOKEN=
-POSTHOG_HOST=https://us.i.posthog.com
-```
-
-Replace the placeholder values with your real credentials. You can get these by signing up at: [**Expo**](https://jsm.dev/nativesub-exp), [**PostHog**](https://jsm.dev/nativesub-posthog) .
 
 **Running the Project**
 
