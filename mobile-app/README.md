@@ -2,8 +2,6 @@
 
 Recurrly is a full-stack subscription management application designed to help users monitor and control their recurring expenses in one centralized hub. Built using a modern "Next.js-style" mobile architecture, the app features robust subscription tracking for both active and inactive charges, automated email reminders to ensure users never miss a billing date.
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
-
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 ### Frontend & Mobile
